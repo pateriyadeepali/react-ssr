@@ -5,7 +5,7 @@ pipeline {
         AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
         S3_BUCKET_NAME = 'my-react-ssr-bucket'
-        EC2_INSTANCE_IP =  13.127.41.238
+        EC2_INSTANCE_IP =  3.108.16.66
     }
     stages {
         stage('Install Dependencies') {
